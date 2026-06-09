@@ -1,0 +1,37 @@
+# Demo network inventory for scripts and automation.
+# Fill in hostnames, management URLs, versions, and serial numbers before running
+# workflows that contact devices or generate activation materials.
+
+network:
+  name: sdwan-demo
+  description: One Orchestrator with three EdgeConnect EC-S-P appliances.
+
+orchestrator:
+  hostname: orchestrator-demo
+  management_url: https://orchestrator.example.com
+  deployment: self-hosted
+  air_gap_enabled: null
+  version: null
+
+appliances:
+  - name: edgeconnect-1
+    model: EC-S-P
+    management_url: https://edgeconnect-1.example.com
+    serial_number: null
+    site: site-1
+    role: branch
+    ecos_version: null
+  - name: edgeconnect-2
+    model: EC-S-P
+    management_url: https://edgeconnect-2.example.com
+    serial_number: null
+    site: site-2
+    role: branch
+    ecos_version: null
+  - name: edgeconnect-3
+    model: EC-S-P
+    management_url: https://edgeconnect-3.example.com
+    serial_number: null
+    site: site-3
+    role: branch
+    ecos_version: null
