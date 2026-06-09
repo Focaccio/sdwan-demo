@@ -1,5 +1,7 @@
 # Air-Gap Orchestrator Registration and EC-S-P Licensing Guide
 
+Version: 1.0
+
 This runbook covers registering the self-hosted Orchestrator in the HPE Aruba
 Networking Air-Gap Portal and licensing the three EdgeConnect EC-S-P appliances
 defined for this demo project.
